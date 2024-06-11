@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:icon="@drawable/home"
+    android:id="@+id/mnBottomHome"
+    android:title="Trang chủ"
+    app:showAsAction="always"
+    android:iconTint="@color/black">
+</item><item
+    android:icon="@drawable/baseline_leaderboard_24"
+    android:id="@+id/mnBottomRank"
+    android:title="Xếp hạng"
+    app:showAsAction="always"
+    android:iconTint="@color/black">
+</item><item
+    android:icon="@drawable/account"
+    android:id="@+id/mnBottomAccount"
+    android:title="Tài khoản"
+    app:showAsAction="always"
+    android:iconTint="@color/black">
+</item>
+</menu>
